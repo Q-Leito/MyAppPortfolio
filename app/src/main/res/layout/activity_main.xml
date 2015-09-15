@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:paddingLeft="48dp"
+                android:paddingRight="48dp"
+                android:paddingTop="48dp"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/mainTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Button
+        android:id="@+id/spotifyStreamerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/spotifyStreamerTitle"/>
+
+    <Button
+        android:id="@+id/scoresAppLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spotifyStreamerLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/scoresAppTitle"/>
+
+    <Button
+        android:id="@+id/libraryAppLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoresAppLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/libraryAppTitle"/>
+
+    <Button
+        android:id="@+id/buildItBiggerLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/libraryAppLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/buildItBiggerTitle"/>
+
+    <Button
+        android:id="@+id/xyzReaderLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buildItBiggerLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/xyzReaderTitle"/>
+
+    <Button
+        android:id="@+id/ownAppLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xyzReaderLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="@string/ownAppTitle"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
